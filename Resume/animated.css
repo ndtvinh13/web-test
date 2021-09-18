@@ -1,0 +1,52 @@
+.skill-bar {
+  margin: 0 0 10% 10%;
+}
+
+.title {
+  margin-bottom: 5px;
+}
+
+.bar {
+  width: 70%;
+  height: 10px;
+  background-color: #eee;
+  border-radius: 30px;
+  /* */
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.bar span {
+  height: 100%;
+  width: 50%;
+  background-image: linear-gradient(to bottom right, #3f0736, #5e00a0);
+  /* positioned relative to the nearest positioned ancestor */
+  position: absolute;
+  transform-origin: left;
+  animation: animate 2s 0s;
+  border-radius: 30px;
+}
+
+/*keyframe to set animation and start with 0% width*/
+@keyframes animate {
+  from {
+    width: 0%;
+  }
+}
+
+/*Divide skills into different categories*/
+.bar.basic span {
+  width: 30%;
+}
+
+.bar.intermediate span {
+  width: 60%;
+}
+
+.bar.advanced span {
+  width: 80%;
+}
+
+.bar.all span {
+  width: 100%;
+}

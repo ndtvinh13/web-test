@@ -38,11 +38,11 @@
   /* background-image: linear-gradient(to bottom right, #021f4b, #4c3b71, #115268); */
   display: flex;
   /* justify-content: space-around; */
-  color: wheat;
+  color: rgb(236, 179, 34);
 }
 
 .social {
-  color: wheat;
+  color: rgb(236, 179, 34);
   text-decoration: none;
 }
 
@@ -159,7 +159,7 @@
 .sline hr {
   width: 70%;
   height: 2px;
-  background-color: grey;
+  background-color: rgb(236, 179, 34);
 }
 
 /*end of education div*/
@@ -214,4 +214,6 @@ h1 {
   text-transform: uppercase;
   padding-left: 10px;
   text-decoration: underline;
+  font-weight: bolder;
+  color: #1c2e4a;
 }

@@ -21,4 +21,15 @@
   .picture {
     display: block;
   }
+  .my-gmail {
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+  .email {
+    font-size: 18px;
+  }
+  .education-info {
+    display: block;
+  }
 }

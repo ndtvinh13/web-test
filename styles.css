@@ -11,7 +11,7 @@
 .resume {
   display: grid;
   grid-template-columns: 750px 450px;
-  grid-template-rows: 270px 270px 270px 270px 270px 270px;
+  grid-template-rows: 270px 270px 270px 270px 270px 300px;
   border-style: solid;
   grid-template-areas:
     "picture picture"
@@ -96,6 +96,12 @@
   color: white;
 }
 
+.my-gmail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .fa-google {
   background: #dd4b39;
   color: white;
@@ -130,6 +136,12 @@
 .education-info {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  height: 80%;
+}
+
+.education-info p {
+  text-align: center;
 }
 
 .h-line {
@@ -145,7 +157,7 @@
 }
 
 .sline hr {
-  width: 50%;
+  width: 70%;
   height: 2px;
   background-color: grey;
 }
@@ -167,13 +179,21 @@
   padding: 0 7% 0 6%;
 }
 
+.exp-container ul li {
+  padding: 10px;
+}
+
 .exp-info {
   padding: 0 40px;
 }
 
 .skills {
   grid-area: skills;
-  background-color: darkgoldenrod;
+  /* background-color: darkgoldenrod; */
+}
+
+.skills-info {
+  padding-left: 5%;
 }
 
 .language {
@@ -184,8 +204,14 @@
   grid-area: interest;
 }
 
+.interest ul li {
+  padding: 10px;
+}
+
 /* all--------------------- */
 /* all of h1 tags */
 h1 {
   text-transform: uppercase;
+  padding-left: 10px;
+  text-decoration: underline;
 }

@@ -29,6 +29,6 @@ comp();
 var els = document.querySelectorAll(".sline");
 for (var i = 0; i < els.length; i++) {
   if (els[i].classList.contains("a")) {
-    els[i].querySelector("hr").style.width = "240px";
+    els[i].querySelector("hr").style.width = "70%";
   }
 }
